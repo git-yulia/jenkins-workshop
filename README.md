@@ -15,6 +15,7 @@ Topics that we'll cover:
 ___________________________________________________________________________________________________
 
 HOW TO RUN CLOC
+
     ./cloc-1.72/cloc business_manager
 
 EXPORTING THE CLASSPATH
