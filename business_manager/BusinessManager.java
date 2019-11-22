@@ -6,7 +6,7 @@ public class BusinessManager
 { 
     public boolean WashTheLizards()
     {
-        boolean they_got_washed : false; 
+        boolean they_got_washed = false; 
 
         // Washing Bambo...
 
