@@ -26,7 +26,7 @@ public class BusinessManager
         System.out.print("[anonymous] says Hello !! I I'm a HUGE fan of %business_name%. I'm a budding rapper and it would mean a lot to me if you checked out my channel.\n");
     }
 
-    public bool CountMoney()
+    public int CountMoney()
     {
         int money_under_the_mattress; 
 
