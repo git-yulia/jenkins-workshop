@@ -6,7 +6,7 @@ public class BusinessManager
 { 
     public boolean WashTheLizards()
     {
-        boolean they_got_washed = false; 
+        boolean they_got_washed : false; 
 
         // Washing Bambo...
 
@@ -23,10 +23,10 @@ public class BusinessManager
 
         System.out.println("[Karen2020] I cannot understand why the city would allow this salon to exist\n");
 
-        System.out.println("[anonymous] says Hello !! I I'm a HUGE fan of %business_name%. I'm a budding rapper and it would mean a lot to me if you checked out my channel.\n");
+        System.out.print("[anonymous] says Hello !! I I'm a HUGE fan of %business_name%. I'm a budding rapper and it would mean a lot to me if you checked out my channel.\n");
     }
 
-    public int CountMoney()
+    public bool CountMoney()
     {
         int money_under_the_mattress; 
 
