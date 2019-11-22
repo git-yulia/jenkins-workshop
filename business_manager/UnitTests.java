@@ -1,7 +1,4 @@
-// [Windows] set CLASSPATH=%CLASSPATH%;JUNIT_DIRECTORY\junit-4.12.jar;PROJECT_ROOT_DIRECTORY
-
-// [bash] export CLASSPATH="/Users/Shared/Jenkins/Home/war/WEB-INF/lib/junit-4.12.jar:/Users/Shared/Jenkins/Home/workspace/build_and_run"
-// echo ${CLASSPATH}
+// export CLASSPATH="/Users/Shared/Jenkins/Home/war/WEB-INF/lib/junit-4.12.jar:/Users/Shared/Jenkins/Home/war/WEB-INF/lib/hamcrest-core-1.3.jar:/Users/Shared/Jenkins/Home/workspace/build_source"
 
 // javac business_manager/UnitTests.java
 // java org.junit.runner.JUnitCore business_manager.UnitTests
