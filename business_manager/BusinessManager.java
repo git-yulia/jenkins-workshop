@@ -6,12 +6,12 @@ public class BusinessManager
 { 
     public boolean WashTheLizards()
     {
-        boolean they_got_washed = false; 
+        boolean they_got_washed = true; 
 
         // Washing Bambo...
 
         // Washing Hypnotoad...
-
+a
         // Washing Lizzie...
 
         return they_got_washed; 
