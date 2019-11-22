@@ -12,19 +12,26 @@ Topics that we'll cover:
 - Intro to Pipelines (purely theoretical)
 - A million other things you can do with Jenkins
 
+___________________________________________________________________________________________________
 
-./cloc-1.72/cloc business_manager
+HOW TO RUN CLOC
+    ./cloc-1.72/cloc business_manager
 
-java -jar ./lib/findbugs.jar -textui ../new.java
+EXPORTING THE CLASSPATH
 
+    export CLASSPATH="/Users/Shared/Jenkins/Home/war/WEB-INF/lib/junit-4.12.jar:/Users/Shared/Jenkins/Home/war/WEB-INF/lib/hamcrest-core-1.3.jar:/Users/Shared/Jenkins/Home/workspace/build_source"
 
-// [bash] export CLASSPATH="/Users/Shared/Jenkins/Home/war/WEB-INF/lib/junit-4.12.jar:/Users/Shared/Jenkins/Home/war/WEB-INF/lib/hamcrest-core-1.3.jar:/Users/Shared/Jenkins/Home/workspace/build_source"
-// echo ${CLASSPATH}
+echo ${CLASSPATH}
 
-// javac business_manager/UnitTests.java
-// java org.junit.runner.JUnitCore business_manager.UnitTests
+HOW TO RUN THE UNIT TESTS
 
+    javac business_manager/UnitTests.java
+    java org.junit.runner.JUnitCore business_manager.UnitTests
 
-// /Users/Shared/Jenkins/Home/workspace/build_source
+WHERE DOES JENKINS STORE FILES ON YOUR MAC
 
-// custom workspace set to ./workspace/build_source
+    /Users/Shared/Jenkins/Home/workspace/build_source
+
+CUSTOM WORKSPACES
+
+    ./workspace/{workspace_name}
